@@ -1,0 +1,48 @@
+table,
+td,
+th {
+    border: solid thin gray;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+tr:first-child {
+    background-color: midnightblue;
+    color: white;
+}
+
+tr:not(:first-child):not(.selected):hover {
+    background-color: lightblue;
+}
+
+.selected {
+    background-color: lightgoldenrodyellow;
+}
+
+#inputPanel {
+    border: dashed thin black;
+    background-color: azure;
+    margin: 1em 0;
+    padding: 20px;
+}
+
+.inputLabel {
+    width: 100px;
+    float: left;
+}
+
+#btnPanel {
+    margin: 0.5em 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#places {
+    margin-top: 2em;
+}

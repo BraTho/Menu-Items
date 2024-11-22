@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Menu Items</title>
+    <link rel="stylesheet" href="menuItems.css" />
+    <script src="menuItems.js"></script>
+  </head>
+  <body>
+    <h1>Menu Items</h1>
+    <button id="addBtn">Add</button>
+    <button id="updateBtn">Update</button>
+    <button id="deleteBtn">Delete</button>
+
+    <div id="inputPanel" class="hidden">
+      <div class="inputControl">
+        <div class="inputLabel">ID</div>
+        <input id="idInput" type="number" disabled />
+      </div>
+      <div class="inputControl">
+        <div class="inputLabel">Category</div>
+        <input id="categoryInput" />
+      </div>
+      <div class="inputControl">
+        <div class="inputLabel">Description</div>
+        <input id="descriptionInput" />
+      </div>
+      <div class="inputControl">
+        <div class="inputLabel">Price</div>
+        <input id="priceInput" type="number" />
+      </div>
+      <div class="inputControl">
+        <div class="inputLabel">Vegetarian</div>
+        <input id="vegInput" type="checkbox" />
+      </div>
+      <div id="btnPanel">
+        <button id="doneBtn">Done</button>
+        <button id="cancelBtn">Cancel</button>
+      </div>
+    </div>
+    <div id="menuItems"></div>
+  </body>
+</html>
